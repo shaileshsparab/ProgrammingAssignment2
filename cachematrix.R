@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## makeCacheMatrix creates a special "matrix", which is a list containing a function to:
+##Set value matrix, get value of matrix, set value of inverse, get value of inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
